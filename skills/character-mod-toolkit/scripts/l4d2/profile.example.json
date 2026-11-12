@@ -1,0 +1,22 @@
+{
+  "meshes": {
+    "Body": "body",
+    "Head": "head",
+    "Hair": "hair"
+  },
+  "body_object": "Body",
+  "materials": {
+    "Material_upper_body": "upper_body",
+    "Material_lower_body": "lower_body",
+    "Material_head": "head",
+    "Material_hair": "hair"
+  },
+  "decimate": {
+    "Body": 0.7
+  },
+  "constant_uv_materials": [],
+  "two_sided_materials": ["hair"],
+  "rigid_head_meshes": [],
+  "align_shoe_soles": false,
+  "meters_per_unit": 1
+}

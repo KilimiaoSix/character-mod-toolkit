@@ -1,0 +1,37 @@
+{
+  "charakuru": {
+    "kind": "zip",
+    "source": "https://github.com/nanocle/Charakuru/releases/download/v1.1.1/charakuru-1.1.1-2026-11-02T09-36-05-842Z.zip",
+    "revision": "v1.1.1",
+    "sha256": "130efef11e087263729842b5523e67d660b33d160e8c118df1c96a9ce50faf3d",
+    "destination": "charakuru",
+    "extract_root": "charakuru-1.1.1-2026-11-02T09-36-05-842Z"
+  },
+  "vrm-addon": {
+    "kind": "file",
+    "source": "https://github.com/saturday06/VRM-Addon-for-Blender/releases/download/v4.10.4/VRM_Addon_for_Blender-Extension-4_10_4.zip",
+    "revision": "v4.10.4",
+    "sha256": "a711da721878d319a76eaaf9dc72c40de6b96d4ed95766f30666ecf7ae492f5b",
+    "destination": "VRM_Addon_for_Blender-Extension-4_10_4.zip"
+  },
+  "rochelle": {
+    "kind": "zip",
+    "source": "https://api.github.com/repos/hedyl2/qctemplate-l4d2/zipball/ada329298ecc5319a166279b3ad6397ea2249fed",
+    "revision": "ada329298ecc5319a166279b3ad6397ea2249fed",
+    "sha256": "bb10b225c8f04269e9c0c48432be8ff9dce8e6e96b08b9e3679e47abf512ea9f",
+    "filename": "rochelle-ada3292.zip",
+    "destination": "community-hedyl2",
+    "extract_root": "hedyl2-qctemplate-l4d2-ada3292",
+    "include": ["LICENSE", "README.md", "survivor_producer"]
+  },
+  "blender-source-tools": {
+    "kind": "zip",
+    "source": "https://api.github.com/repos/Artfunkel/BlenderSourceTools/zipball/3d5fd9bf681547d86fa369715a0e8dd6013edcb7",
+    "revision": "3d5fd9bf681547d86fa369715a0e8dd6013edcb7",
+    "sha256": "91a313534d0586d784c15b4ed275e7b8fbe63b645b786bf6f5da47dcccabef3f",
+    "filename": "blender-source-tools-3d5fd9b.zip",
+    "destination": "blender-source-tools",
+    "extract_root": "Artfunkel-BlenderSourceTools-3d5fd9b",
+    "include": ["io_scene_valvesource"]
+  }
+}

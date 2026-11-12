@@ -1,0 +1,7 @@
+// Copy to <workspace>/04_compile/rochelle_arms.qc and provide both SMDs.
+// The first-person reference uses its own skeleton and Source coordinates.
+$modelname "weapons/arms/v_arms_producer_new.mdl"
+$cdmaterials "models/survivors/character_mod/"
+$include "../deps/community-hedyl2/survivor_producer/qc/bone_fps.qci"
+$body "arms" "mesh/first_person_arms.smd"
+$sequence "idle" "mesh/first_person_idle.smd" fps 30

@@ -156,9 +156,9 @@ if ($Pack) {
     } finally {
         Pop-Location
     }
-    $pack = "$packDir.vpk"
-    if (!(Test-Path -LiteralPath $pack -PathType Leaf) -or (Get-Item -LiteralPath $pack).Length -eq 0) {
+    $vpkPath = "$packDir.vpk"
+    if (!(Test-Path -LiteralPath $vpkPath -PathType Leaf) -or (Get-Item -LiteralPath $vpkPath).Length -eq 0) {
         throw 'vpk.exe did not produce the expected VPK.'
     }
-    Write-Host "Packaged: $pack"
+    Write-Host "Packaged: $vpkPath"
 }

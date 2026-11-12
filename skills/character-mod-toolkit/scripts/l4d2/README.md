@@ -50,4 +50,4 @@ $ArmsQc = Join-Path $Work '04_compile\rochelle_arms.qc'
 & (Join-Path $L4D2 'Build-Rochelle.ps1') -Workspace $Work -GameRoot $Game -FirstPersonQc $ArmsQc -Pack
 ```
 
-已在 macOS 用完整角色验证 Blender 处理、SMD 导出、VTF/VMT 生成和 QC 静态预检。该测试包含 7 个 SMD、76 根参考骨骼及 5 个不透明材质。Windows StudioMDL、VPK 打包及游戏内显示仍需实测。
+已在 macOS 用完整角色验证 Blender 处理、SMD 导出、VTF/VMT 生成和 QC 静态预检。该测试包含 7 个 SMD、76 根参考骨骼及 5 个不透明材质。PowerShell 包装脚本通过模拟编译器测试了第三人称、加入手臂及编译失败三种情况。Windows StudioMDL、VPK 打包及游戏内显示仍需实测。
